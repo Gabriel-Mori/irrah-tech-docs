@@ -10,39 +10,39 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   i18n: {
-    defaultLocale: "pt",
-    locales: ["pt", "en"],
+    defaultLocale: 'pt',
+    locales: ['pt', 'en'],
   },
-  title: "Irrah Tech Docs",
-  tagline: "Documentação completa dos produtos",
-  url: "https://www.grupoirrah.com.br/",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "https://www.irrahtech.io/wp-content/themes/irrahtech/favicon.png",
-  organizationName: "Irrah Tech",
-  projectName: "irrahtech-docs",
+  title: 'Irrah Tech Docs',
+  tagline: 'Documentação completa dos produtos',
+  url: 'https://www.grupoirrah.com.br/',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'https://www.irrahtech.io/wp-content/themes/irrahtech/favicon.png',
+  organizationName: 'Irrah Tech',
+  projectName: 'irrahtech-docs',
   themeConfig: {
     navbar: {
       logo: {
-        alt: "Irrah Tech Logo",
-        src: "img/irrah.png",
+        alt: 'Irrah Tech Logo',
+        src: 'img/irrah.png',
       },
       items: [],
     },
   },
   presets: [
     [
-      "@docusaurus/preset-classic",
+      '@docusaurus/preset-classic',
       {
         docs: {
-          routeBasePath: "/",
-          sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: "https://github.com/IrrahTech/irrahtech-docs/tree/main",
+          // editUrl: "https://github.com/IrrahTech/irrahtech-docs/tree/main",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],

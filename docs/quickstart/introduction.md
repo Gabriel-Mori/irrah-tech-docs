@@ -16,7 +16,7 @@ Nada de texto bonito só pra encher linguiça. O foco é ser direto, prático e 
 
 ## O que você vai encontrar aqui?
 
-- Documentação técnica dos nossos produtos e serviços (tipo a Z-API e outros que a gente usa/desenvolve);
+- Documentação técnica dos nossos produtos e serviços;
 - Guias rápidos de integração;
 - Informações sobre fluxos internos;
 - Dicas, exemplos de uso e padrões que seguimos no time;

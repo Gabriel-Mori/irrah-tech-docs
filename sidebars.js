@@ -10,6 +10,17 @@
 module.exports = {
   tutorialSidebar: {
     'Quick Start': ['quickstart/introduction'],
-    kigi: ['Kigi/intro'],
+    kigi: [
+      'Kigi/introduction-kigi',
+      'Kigi/branchs',
+      'Kigi/development-flow',
+      'Kigi/version-components',
+      'Kigi/version-base',
+      'Kigi/report',
+      'Kigi/version-homologation',
+      'Kigi/version-production',
+    ],
+
+    Evendi: ['evendi/introduction'],
   },
 };
